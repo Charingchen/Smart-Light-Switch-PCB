@@ -1,0 +1,22 @@
+R12 change from 32k to39k due to output overvoltage and keep shutting off. Load with 32k setting would not change that behaviour.
+with 39k, output voltage mean at 4.8V. with not subber circuit. it obsever a lot of overshoot noise.
+
+12-19-2019: adding subber next to see
+
+12-20-2019:
+Over voltage shut off is due to no load condition. This flyback does not work well with no load at all. Needs to have some load to have switching works effieniently. 
+
+5V measure along with high voltage measurement is not accurate. The switching noise will be added to 5V rail. Measuring only 5V will result a much more clean rail
+
+VS voltage divider needs to be adjust to be exactly 5V. The combination of 110k and 37.4k should give 5.09V with min 5.04 and max 5.14. Keeping the current 110k and 39k as it is to reduce LDO heat loss.
+
+Op-amp only connected to 5V rail. Might need to change that later
+
+TVS require less parts(but more expensive) reduce voltage peak by 300V (700V down to 400V)
+
+Based on instrument current and power display: this flyback hag ~69% effiencey.
+
+Next step:
+
+Try on LDO to see the turn on OV still happens or not. 
+

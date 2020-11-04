@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri "C:/Users/Charing Chen/Google Drive/Smart Light Switch System/Hardware/project sch and pcb/digikey-kicad-library-master/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name SLS_rev1)(type KiCad)(uri "C:/Users/Charing Chen/Google Drive/Smart Light Switch System/Hardware/project sch and pcb/SLS_REV1/SLS_rev1.pretty")(options "")(descr ""))
+  (lib (name fuse_footprint)(type KiCad)(uri "${KIPRJMOD}/external lib/UL_0697H100002/KiCAD/2019-10-03_00-56-26/footprints.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,407 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +3.3V-power
+#
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-power
+#
+DEF +5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 1.5KExxA-Diode
+#
+DEF 1.5KExxA-Diode D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1.5KExxA-Diode" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" 0 -200 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+$FPLIST
+ D?DO?201AE*
+$ENDFPLIST
+DRAW
+P 3 0 1 8 -30 50 -50 50 -50 -50 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X A1 1 -150 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AP2114H-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear
+#
+DEF AP2114H-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear U 0 1 Y Y 1 F N
+F0 "U" -250 150 60 H V C CNN
+F1 "AP2114H-3_3TRG1-dk_PMIC-Voltage-Regulators-Linear" -300 250 60 H V L BNN
+F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" 200 300 60 H I L CNN
+F4 "AP2114H-3.3TRG1DICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "AP2114H-3.3TRG1" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/diodes-incorporated/AP2114H-3.3TRG1/AP2114H-3.3TRG1DICT-ND/4505142" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 1A SOT223" 200 1000 60 H I L CNN "Description"
+F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 100 200 -300 0 1 0 f
+X GND 1 -100 -500 200 U 50 50 1 1 W
+X VOUT 2 400 0 200 L 50 50 1 1 O
+X IN 3 -500 0 200 R 50 50 1 1 I
+X VOUT 4 400 -100 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# CP1-Device
+#
+DEF CP1-Device C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "CP1-Device" 25 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
+P 2 0 1 20 -80 30 80 30 N
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 70 -50 110 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_Small-Device
+#
+DEF C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_02x03_Odd_Even
+#
+DEF Conn_02x03_Odd_Even J? 0 40 Y N 1 F N
+F0 "J?" 50 200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "CONN HEADER VERT 6POS 2.54MM" 0 0 50 H V C CNN "Description"
+F5 "952-2121-ND" 0 0 50 H V C CNN "Digikey PN"
+F6 "M20-9980346" 0 0 50 H V C CNN "MPN"
+F7 "Harwin Inc." 0 0 50 H V C CNN "Manufacturer"
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Earth-power
+#
+DEF ~Earth-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Earth-power" 0 -150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X Earth 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND-power
+#
+DEF GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GNDPWR-power
+#
+DEF GNDPWR-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "GNDPWR-power" 0 -130 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 3 0 1 8 -40 -50 -50 -80 -50 -80 N
+P 3 0 1 8 -20 -50 -30 -80 -30 -80 N
+P 3 0 1 8 0 -50 -10 -80 -10 -80 N
+P 3 0 1 8 20 -50 10 -80 10 -80 N
+P 3 0 1 8 40 -50 -40 -50 -40 -50 N
+P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
+X GNDPWR 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# L-Device
+#
+DEF L-Device L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-Device" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LMV321-Amplifier_Operational
+#
+DEF LMV321-Amplifier_Operational U 0 5 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "LMV321-Amplifier_Operational" 0 -200 50 H V L CNN
+F2 "" 0 0 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOT?23*
+ *SC*70*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 2 -100 -300 150 U 50 50 0 1 W
+X V+ 5 -100 300 150 D 50 50 0 1 W
+X + 1 -300 100 100 R 50 50 1 1 I
+X - 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# LTST-C190KGKT-dk_LED-Indication-Discrete
+#
+DEF LTST-C190KGKT-dk_LED-Indication-Discrete D 0 0 Y Y 1 F N
+F0 "D" -150 100 60 H V C CNN
+F1 "LTST-C190KGKT-dk_LED-Indication-Discrete" -50 -150 60 H V C CNN
+F2 "digikey-footprints:0603" 200 200 60 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF" 200 300 60 H I L CNN
+F4 "160-1435-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LTST-C190KGKT" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "http://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/lite-on-inc/LTST-C190KGKT/160-1435-1-ND/386814" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED GREEN CLEAR CHIP SMD" 200 1000 60 H I L CNN "Description"
+F11 "Lite-On Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MRA4007T3G-Diode
+#
+DEF MRA4007T3G-Diode D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MRA4007T3G-Diode" 0 -100 50 H V C CNN
+F2 "Diode_SMD:D_SMA" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ D*SMA*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_Small_US-Device
+#
+DEF R_Small_US-Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_Small_US-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_US-Device
+#
+DEF R_US-Device R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "R_US-Device" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Thermistor_NTC_US-Device
+#
+DEF Thermistor_NTC_US-Device TH 0 0 N Y 1 F N
+F0 "TH" -175 0 50 V V C CNN
+F1 "Thermistor_NTC_US-Device" 125 0 50 V V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+$ENDFPLIST
+DRAW
+A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
+A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
+A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
+A -110 110 10 0 900 0 1 0 N -100 110 -110 120
+A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
+A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
+A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
+P 2 0 1 0 -100 85 -100 110 N
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
+P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Thermistor_US-Device
+#
+DEF Thermistor_US-Device TH 0 0 N Y 1 F N
+F0 "TH" 100 50 50 V V C CNN
+F1 "Thermistor_US-Device" -100 0 50 V V C BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 2 0 1 0 75 -50 75 -100 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Varistor_US-Device
+#
+DEF Varistor_US-Device RV 0 0 N Y 1 F N
+F0 "RV" 125 0 50 V V C CNN
+F1 "Varistor_US-Device" -125 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ RV_*
+ Varistor*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

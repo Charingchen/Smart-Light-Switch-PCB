@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Regulator_Controller)(type Legacy)(uri ${KIPRJMOD}/Regulator_Controller.lib)(options "")(descr ""))
+  (lib (name SLS_Custom)(type Legacy)(uri ${KIPRJMOD}/SLS_custom.lib)(options "")(descr ""))
+  (lib (name SLS_rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/SLS_rev1-rescue.lib)(options "")(descr ""))
+  (lib (name fuse)(type Legacy)(uri "${KIPRJMOD}/external lib/KiCAD/2019-09-20_19-07-09/2019-09-20_19-07-09.lib")(options "")(descr ""))
+)

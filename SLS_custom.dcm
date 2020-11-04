@@ -1,0 +1,152 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10118193-0001LF
+D CONN RCPT USB2.0 MICRO B SMD R/A
+K 609-4616-1-ND
+F http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118193.pdf
+$ENDCMP
+#
+$CMP AOT7N70
+D MOSFET N-CH 700V 7A TO220F
+K AOT7N70
+F http://aosmd.com/res/data_sheets/AOTF7N70.pdf
+$ENDCMP
+#
+$CMP CP2102N-A01-GQFN24
+D USB to UART master bridge, QFN-24
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-A02-GQFN20R
+D IC USB TO UART BRIDGE QFN20
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-A02-GQFN28R
+D USB to UART master bridge, QFN-28
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP Cap
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C150JB5NNNC.jsp
+$ENDCMP
+#
+$CMP Conn_02x03_Odd_Even
+F https://cdn.harwin.com/pdfs/M20-998.pdf
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_numberPin
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP EKMC1601111
+D Board Mount Motion & Position Sensors Digital 170uA 5m White
+F https://componentsearchengine.com/Datasheets/1/EKMC1601111.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32
+D SMD MODULE, ESP32-D0WDQ6, 32MBIT
+K 1904-1010-1-ND *
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP Keystone5018
+D test point
+K test point tp
+F https://www.mouser.ca/datasheet/2/215/018-741157.pdf
+$ENDCMP
+#
+$CMP MBT3904DW1T1G
+D TRANS 2NPN 40V 0.2A SC88
+K MBT3904DW1T1GOSCT-ND
+F http://www.onsemi.com/pub/Collateral/MBT3904DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MDB8s
+D Bridge Rectifiers Bridge Rectifier
+$ENDCMP
+#
+$CMP NRVTSA4100E
+D Schottky diode
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/NRVTSA4100E-D.PDF
+$ENDCMP
+#
+$CMP PTS645SM43SMTR92_LFS
+D SWITCH TACTILE SPST-NO 0.05A 12V
+K CKN9112CT-ND PTS645
+F https://www.ckswitches.com/media/1471/pts645.pdf
+$ENDCMP
+#
+$CMP Phoenix_3pos_5mm
+D Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf
+$ENDCMP
+#
+$CMP RZ03-1A4-D005
+D TE CONNECTIVITY / SCHRACK - RZ03-1A4-D005 - RELAY, SPST-NO, 250VAC, 16A
+F https://componentsearchengine.com/Datasheets/1/RZ03-1A4-D005.pdf
+$ENDCMP
+#
+$CMP R_0ohm
+D Resistor, small US symbol
+K r 0 resistor
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP SIHD2N80E
+D FQD10N20CTM, N-channel MOSFET Transistor 7.8 A 200 V, 3-Pin D-PAK
+F https://www.mouser.ca/datasheet/2/427/sihd2n80e-1129283.pdf
+$ENDCMP
+#
+$CMP SSM3K257R
+D MOSFET N-CH 60V 200MA TO-92
+K 2N7000FS-ND
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=59207&prodName=SSM3K357R
+$ENDCMP
+#
+$CMP TPD2EUSB30
+D 2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
+$ENDCMP
+#
+$CMP TPD2EUSB30A
+D 2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
+$ENDCMP
+#
+$CMP TPD4S012DRYR
+D TVS DIODE 5.5V 6SON
+K 296-24244-1-ND
+F http://www.ti.com/lit/ds/symlink/tpd4s012.pdf
+$ENDCMP
+#
+$CMP Transformer_120V_PRI_15V_AUX
+D Transformer, split primary, secondary, aux
+K transformer coil magnet
+F https://katalog.we-online.de/ctm/datasheet/7508110151.pdf
+$ENDCMP
+#
+#End Doc Library

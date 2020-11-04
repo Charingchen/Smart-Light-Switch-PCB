@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC28704
+D High-Efficiency Offline CV and CC flyback controller
+K PSR flyback PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc28704.pdf
+$ENDCMP
+#
+#End Doc Library
